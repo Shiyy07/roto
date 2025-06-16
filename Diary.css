@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'main';
+  src: url('https://raw.githubusercontent.com/Shiyy07/knkn/main/azuki.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* { font-family: 'main', sans-serif; }
+
+hr{
+border:none;}
+a {
+ text-decoration: none; }
