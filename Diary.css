@@ -25,7 +25,7 @@ background: linear-gradient(-45deg, #928dab, #1f1c2c) fixed;
   50% { background-position: 50% 100%; }
   100% { background-position: 50% 0%; }
 }
-‭.box {‬
+.box {‬
 ‭    --bg-gradient: linear-gradient(#C10E49 0 100%);‬
 ‭    ‬margin: 20px; /* 外側の余白（上下と中央配置） */
    padding: 28px; /* 内側余白（上・左右・下） */
