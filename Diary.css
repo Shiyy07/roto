@@ -15,7 +15,7 @@ a {
  text-decoration: none; }
 body{ 
 font-size: 6px;
-background: linear-gradient(-45deg, #616161, #9bc5c3) fixed;
+background: linear-gradient(-45deg, #928dab, #1f1c2c) fixed;
   background-size: 800% 800%;
   animation: GradietionAnimation 120s ease infinite;
 }
@@ -25,3 +25,20 @@ background: linear-gradient(-45deg, #616161, #9bc5c3) fixed;
   50% { background-position: 50% 100%; }
   100% { background-position: 50% 0%; }
 }
+‭.box {‬
+‭    --bg-gradient: linear-gradient(#C10E49 0 100%);‬
+‭    ‬margin: 20px; /* 外側の余白（上下と中央配置） */
+   padding: 28px; /* 内側余白（上・左右・下） */
+‭    background-image:‬
+‭        var(--bg-gradient),‬
+‭        var(--bg-gradient),‬
+‭        var(--bg-gradient),‬
+‭        var(--bg-gradient);‬
+‭    background-repeat: no-repeat;‬
+‭    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;‬
+‭    background-position: left top 5px, right 5px top, left bottom 5px, left 5px top;‬
+‭color: #fff;‬
+‭font-size: 10px;‬
+letter-spacing: -0.1em;
+text-align: justify;
+‭}‬
